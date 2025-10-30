@@ -1,0 +1,17 @@
+{
+  "name": "github-actions-ci-cd",
+  "version": "1.0.0",
+  "description": "Set up CI/CD pipeline using GitHub Actions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Running tests...\" && exit 0",
+    "build": "echo \"Building project...\" && mkdir -p build && echo \"Build complete\" > build/status.txt"
+  },
+  "keywords": [
+    "ci/cd",
+    "github-actions",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC"
+}
